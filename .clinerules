@@ -1,0 +1,27 @@
+# Backend Naming Convention Rules (C#)
+
+## Controller Layer
+- Folder: `Controllers`
+- File naming: `[function]Controller.cs` 
+- Class naming: `[Function]Controller`
+
+## Business Logic Layer (BL)
+- Folder: `BL`
+- File naming: 
+  - Interface: `I[function]BL.cs` (e.g. `IUserBL.cs`)
+  - Implementation: `[function]BL.cs`
+- Class naming:
+  - Interface: `I[Function]BL` 
+  - Implementation: `[Function]BL`
+
+## Data Layer (DL)
+- Folder: `DL`
+- File naming:
+  - Interface: `I[function]DL.cs`
+  - Implementation: `[function]DL.cs`
+- Class naming:
+  - Interface: `I[Function]DL`
+  - Implementation: `[Function]DL`
+
+## Flow Pattern
+Controller -> BL (qua interface) -> DL (qua interface) -> Database

@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Migrations
+# Migrations/  <- Commented out as Migrations folder exists and seems important
+
+# Logs
+*.log
+
+# Database
+*.mdf
+*.ldf
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Others
+*.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
